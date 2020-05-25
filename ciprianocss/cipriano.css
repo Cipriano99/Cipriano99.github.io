@@ -497,6 +497,7 @@
 /* Orientação de listas */
 
 .orientação-lista-horizontal li {
+    min-width: 40px;
     display: inline-block;
     margin-right: 5px;
 }
