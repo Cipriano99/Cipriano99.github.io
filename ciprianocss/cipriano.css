@@ -896,7 +896,16 @@
     .linha .coluna.tamanho2,
     .linha .coluna.tamanho3,
     .linha .coluna.tamanho4,
-    .linha .coluna.tamanho5,
+    .linha .coluna.tamanho5 {
+        width: 50%;
+        margin-top: 5px;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
     .linha .coluna.tamanho6,
     .linha .coluna.tamanho7,
     .linha .coluna.tamanho8,
@@ -909,7 +918,6 @@
         margin-left: auto;
         left: auto;
         right: auto;
-        display: flex;
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
@@ -1222,4 +1230,4 @@ table.realçado>tbody>tr:hover {
 textarea {
     border: none;
     resize: none
-} 
+}
