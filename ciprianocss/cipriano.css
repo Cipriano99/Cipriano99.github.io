@@ -895,8 +895,7 @@
     .linha .coluna.tamanho1,
     .linha .coluna.tamanho2,
     .linha .coluna.tamanho3,
-    .linha .coluna.tamanho4,
-    .linha .coluna.tamanho5 {
+    .linha .coluna.tamanho4 {
         width: 50%;
         margin-top: 5px;
         margin-left: auto;
@@ -906,6 +905,7 @@
         align-content: center;
         justify-content: center;
     }
+    .linha .coluna.tamanho5,
     .linha .coluna.tamanho6,
     .linha .coluna.tamanho7,
     .linha .coluna.tamanho8,
