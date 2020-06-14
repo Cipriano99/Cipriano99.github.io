@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 /* Fundo - background */
 
 .fundo-preto {
@@ -320,28 +324,32 @@
 
 /* Tipo de fonte - font-family */
 
-.texto-fonte-serif {
-  font-family: serif;
+.texto-fonte-roboto {
+  font-family: 'Roboto', sans-serif;
 }
 
-.texto-fonte-sans {
-  font-family: sans-serif;
+.texto-fonte-ubuntu {
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.texto-fonte-monospace {
-  font-family: monospace;
+.texto-fonte-oswald {
+  font-family: 'Oswald', sans-serif;
 }
 
-.texto-fonte-cursive {
-  font-family: cursive;
+.texto-fonte-pacifico {
+  font-family: 'Pacifico', cursive;
 }
 
-.texto-fonte-fantasy {
-  font-family: fantasy;
+.texto-fonte-source {
+  font-family: 'Source Code Pro', monospace;
 }
 
-.texto-fonte-sistema {
-  font-family: system-ui;
+.texto-fonte-special {
+  font-family: 'Special Elite', cursive;
+}
+
+.texto-fonte-dancing {
+  font-family: 'Dancing Script', cursive;
 }
 
 /* Fosrmatação de texto - text-transform */
@@ -380,19 +388,19 @@
 /** Tamanho de fonte - font-size*/
 
 .texto-fonte-pequena {
-  font-size: small;
+  font-size: 1.6rem;
 }
 
 .texto-fonte-media {
-  font-size: medium;
+  font-size: 2rem;
 }
 
 .texto-fonte-grande {
-  font-size: large;
+  font-size: 2.8rem;
 }
 
 .texto-fonte-muito-grande {
-  font-size: x-large;
+  font-size: 3.7rem;
 }
 
 /* Borda sólida - border: solid */
@@ -956,7 +964,7 @@ table.realçado>tbody>tr:hover {
   padding-right: 10px;
   height: 20px;
   cursor: pointer;
-  font-size: medium;
+  font-size: 1.6rem;
 }
 
 .botao-medio {
@@ -968,7 +976,7 @@ table.realçado>tbody>tr:hover {
   max-width: 160px;
   min-height: 30px;
   cursor: pointer;
-  font-size: large;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -979,7 +987,7 @@ table.realçado>tbody>tr:hover {
   padding-right: 10px;
   height: 50px;
   cursor: pointer;
-  font-size: x-large;
+  font-size: 2.8rem;
 }
 
 .botao-pequeno:hover, .botao-medio:hover, .botao-grande:hover {
@@ -1061,7 +1069,7 @@ table.realçado>tbody>tr:hover {
   padding: 10px 0px;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(128, 128, 128, 0.1);
-  font-size: 18px;
+  font-size: 1.6rem;
 }
 
 /* Utilitários */
