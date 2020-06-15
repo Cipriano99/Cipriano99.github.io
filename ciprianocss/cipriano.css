@@ -359,7 +359,7 @@ html {
   font-family: 'Dancing Script', cursive;
 }
 
-/* Fosrmatação de texto - text-transform */
+/* Formatação de texto - text-transform */
 
 .texto-maiusculo {
   text-transform: uppercase;
@@ -875,10 +875,35 @@ html {
 }
 
 .conteudo-coluna {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 15px 5px;
+}
+
+/* Grid layout */
+
+.colunas2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.colunas2 .c1l1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.colunas2 .c1l2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.colunas2 .c2l1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.colunas2 .c2l2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 /* Mídias  */
@@ -1055,7 +1080,19 @@ table.realçado>tbody>tr:hover {
 /* Rodapé */
 
 .rodape {
-  padding-top: 20px;
+  padding-top: 40px;
+}
+
+.rodape .titulo {
+  padding: 20px;
+}
+
+.rodape .subtitulo {
+  padding: 15px;
+}
+
+.rodape .contato {
+  padding: 20px 0;
 }
 
 .rodape .rodape-direitos {
@@ -1077,6 +1114,14 @@ table.realçado>tbody>tr:hover {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(128, 128, 128, 0.1);
   font-size: 1.6rem;
+}
+
+.rodape li {
+  padding: 15px;
+}
+
+.rodape li:hover {
+  background-color: rgba(242, 242, 242, 0.2);
 }
 
 /* Utilitários */
